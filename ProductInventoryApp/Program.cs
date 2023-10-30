@@ -16,7 +16,5 @@ namespace ProductInventoryApp
             Product.ListAllProduct();
             Product.Sum();
         }
-
     }
-
 }
