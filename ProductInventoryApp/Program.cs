@@ -12,9 +12,9 @@ namespace ProductInventoryApp
         //Main method
         public static void Main(string[] args)
         {
-            Product.AddProduct("Fruit", 20.1F, 50);
-            Product.ListAllProduct();
-            Product.Sum();
+            Product p = new Product();
+            p.AddProduct("Fruit", 20.1F, 50);
+            p.ListAllProduct();
         }
     }
 }
